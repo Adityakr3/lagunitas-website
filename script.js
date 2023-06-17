@@ -25,3 +25,12 @@ close.addEventListener("click",function(){
     menu.style.display='initial';
     close.style.display='none';
 })
+// .......................................overlay ka java script...........................
+
+var overlayDiv = document.querySelector("#overlayDiv");
+var close1 = document.querySelector("img");
+var overlay = document.querySelector("#overlay");
+
+close1.addEventListener("click",function(){
+   overlay.style.display='none'
+})
