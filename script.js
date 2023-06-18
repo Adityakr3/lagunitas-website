@@ -42,9 +42,9 @@ btn.addEventListener("click", function () {
 
 //......................................another sucribe box.........................................
 
-var overDiv = document.querySelector("#overlayDiv1");
+var over = document.querySelector("#overlayDiv1");
 setTimeout(() => {
-  overDiv.style.right = "-1%";
-}, 5955);
+  over.style.right= "2%";
+}, 5255);
 
 //........................................................................................................

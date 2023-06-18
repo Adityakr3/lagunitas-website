@@ -134,16 +134,52 @@ body {
   background-color: red;
 }
 #overlayDiv1{
-  width:555px;
-  height:455px;
-  background-color: black;
-  position: relative;
-  transform: translate(155% ,70%);
+  width:595px;
+  height:415px;
+  top: 45%;
+  background-color: rgb(255, 255, 255);
+  position:absolute;
   z-index: 999999999;
-  transition: all ease 1s;
+  transition: all ease 2.2s;
+  right:-40%;
+  border-radius: 5px;
+  overflow: hidden;
 }
-
-
+#overlayDiv1 > img {
+  position: absolute;
+  width:32vw;
+  top: 10%;
+  left: 40%;
+}
+#overlayDiv1data{
+  width:65%;
+  height:100%;
+  /* background-color:red; */
+  position:absolute;
+  z-index:99;
+}
+#overlayDiv1data p{
+  font-size: 36px;
+   font-weight: 200;
+   margin: 36px 64px;
+   text-align: center;
+   font-family: 'Economica', sans-serif;
+   word-spacing:6%;
+   /* background-color: aquamarine; */
+}
+#overlayDiv1data h5 , input{
+  margin-left: 72px;
+}
+#overlayDiv1data h5{
+  font-size: 16px;
+}
+#overlayDiv1data input{
+  width: 18vw;
+  height: 5vh;
+}
+#overlayDiv1data > button{
+  padding: 16px 32px;
+}
 
 
 
