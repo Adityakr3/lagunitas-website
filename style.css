@@ -26,13 +26,14 @@ body {
 #overlay{
     min-height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.506);
+    background-color: rgba(0, 0, 0, 0.696);
     z-index: 999999999;
     position:relative;
     position:fixed;
     /* margin:5%; */
     top: 0%;
     left:0%;
+    display: none;
 }
 #overlayDiv{
     width:80%;
@@ -85,17 +86,62 @@ body {
 }
 #overlayDiv > .h1font{
    width: 75%;
-   height: 25%;
+   height: 55%;
    /* background-color: rgba(0, 0, 0, 0.289); */
    margin-left: 12.5%;
-   margin-top: 8.2%;
+   margin-top:6%;
    font-size: 56px;
    line-height: 91px;
    text-align: center;
+   position: relative;
+   overflow: hidden;
 }
-
-
-
+.overlay-h1font{
+  position: absolute;
+  width:84%;
+  height:55%;
+  left: 8%;
+  background-image: url(./images/texture.png);
+  background-position: center;
+  background-size: cover;
+  /* background-color: aqua; */
+}
+.btnData{
+  width: 45%;
+  height: 25%;
+  /* background-color: black; */
+  margin-top: 3%;
+  margin-left: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: black;
+}
+.btnData button{
+  width: 145px;
+  height: 45px;
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: black;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.btnData > .btn{
+  width: 115px;
+  height: 55px;
+  background-color: red;
+}
+#overlayDiv1{
+  width:555px;
+  height:455px;
+  background-color: black;
+  position: relative;
+  transform: translate(155% ,70%);
+  z-index: 999999999;
+  transition: all ease 1s;
+}
 
 
 
@@ -226,21 +272,32 @@ nav > .elem3 > button {
   display: flex;
   /* background-color: aqua; */
   flex-direction: column;
+  position: relative;
 }
 .box1-main-right > h1 {
   font-family: "Oswald", sans-serif;
   margin-top: 25%;
   font-size: 92px;
   font-weight: 900;
-  background-image: url(./images/texture.png);
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: black;
   margin-left: -8%;
   color: inherit;
   text-decoration: none;
   line-height: 95%;
 }
+.box1-main-right >.overlay-right{
+  position: absolute;
+  top: 26% ;
+  left:-9%;
+  width: 100%;
+  height: 25%;
+ background-image: url(./images/texture.png);
+ background-position: center;
+ background-size: cover;
+
+}
+
+
+
 .box1-main-right > h4 {
   font-family: "Oswald", sans-serif;
   margin-top: 5%;
@@ -381,6 +438,7 @@ nav > .elem3 > button {
   justify-content: center;
   /* font-size: 185px; */
   line-height: 110px;
+  position: relative;
 }
 .text > h1 {
   color: black;
@@ -388,6 +446,34 @@ nav > .elem3 > button {
   letter-spacing: -9%;
   line-height: 91%;
 }
+#box2 >.text > .overlayText{
+  min-height:35vh;
+  width:45%;
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.349); */
+  background-image: url(./images/texture.png);
+  background-position: center;
+  background-size: cover;
+  top:22%;
+  left: 27%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #box3 {
   position: relative;
