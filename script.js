@@ -48,3 +48,9 @@ setTimeout(() => {
 }, 5255);
 
 //........................................................................................................
+
+var close2 =document.querySelector(".cross2");
+var overlayDiv1 = document.querySelector("#overlayDiv1data");
+close2.addEventListener("click",function(){
+    overlayDiv1.style.display='none'
+})

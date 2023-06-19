@@ -178,9 +178,20 @@ body {
   height: 5vh;
 }
 #overlayDiv1data > button{
-  padding: 16px 32px;
+  margin-top: 4%;
+  padding: 12px 24px;
+  font-size: 14px;
+  margin-left: 148px;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
 }
-
+#overlayDiv1data h6{
+  font-size: 12px;
+  margin-top: 4%;
+  margin-left: 72px;
+  font-weight: 100;
+}
 
 
 
