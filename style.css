@@ -2,7 +2,7 @@
   font-family: gilroy;
   src: url(./public/fonts/Gilroy-Regular.ttf) format("truetype");
 }
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -192,36 +192,6 @@ body {
   margin-left: 72px;
   font-weight: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #box1 > nav {
   width: 96%;
   height: 12vh;
@@ -342,9 +312,6 @@ nav > .elem3 > button {
  background-size: cover;
 
 }
-
-
-
 .box1-main-right > h4 {
   font-family: "Oswald", sans-serif;
   margin-top: 5%;
@@ -631,8 +598,40 @@ nav > .elem3 > button {
 
 }
 #box5 > .databox{
-    width: 27%;
+    width: 29%;
     height: 75%;
-    background-color: black;
-    margin-right: 5%;
+    /* background-color: black; */
+    margin-right: 3%;
+}
+.databox > #h1{
+    font-family: "Kalam", cursive;
+    width: 100%;
+    height: 65px;
+    /* background-color: aqua; */
+    display: flex;
+    margin-left: 8%;
+}
+.databox > #h1 > h1{
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-size: 32px;
+}
+.databox > #btext{
+  width: 100%;
+  height: 48%;
+}
+#btext > h2{
+  font-size: 76px;
+  line-height: 78%;
+  margin-left: 6%;
+  font-family: gilroy;
+}
+#btext > h2:hover{
+  color: rgba(231, 33, 33, 0.897);
+}
+#ptext > p{
+  width: 70%;
+  height: 75%;
+  margin-left: 6%;
+  font-weight: 100;
 }

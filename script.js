@@ -7,9 +7,7 @@ elem2.addEventListener("mousemove", function () {
     elemDog.style.bottom = "-101%";
   }, 555);
 });
-
 // ......................slider....................................................................
-
 var menu = document.querySelector("#menu");
 var slider = document.querySelector(".lft-slider");
 var close = document.querySelector("#close");
@@ -23,9 +21,7 @@ close.addEventListener("click", function () {
   menu.style.display = "initial";
   close.style.display = "none";
 });
-
 // .......................................overlay ka java script..................................
-
 var overlayDiv = document.querySelector("#overlayDiv");
 var close1 = document.querySelector("img");
 var overlay = document.querySelector("#overlay");
@@ -39,18 +35,12 @@ close1.addEventListener("click", function () {
 btn.addEventListener("click", function () {
   overlay.style.display = "none";
 });
-
 //......................................another sucribe box.........................................
-
-var over = document.querySelector("#overlayDiv1");
 setTimeout(() => {
   over.style.right= "2%";
 }, 5255);
-
-//........................................................................................................
-
-var close2 =document.querySelector(".cross2");
-var overlayDiv1 = document.querySelector("#overlayDiv1data");
+var over = document.querySelector("#overlayDiv1");
+var close2 =document.querySelector(".cross2");//........................................................................................................
 close2.addEventListener("click",function(){
-    overlayDiv1.style.display='none'
+    over.over.style.right= "-4%";
 })
