@@ -4,7 +4,7 @@ var elemDog = document.querySelector(".elemDog");
 elem2.addEventListener("mousemove", function () {
   elemDog.style.bottom = "-5%";
   setTimeout(() => {
-    elemDog.style.bottom = "-101%";
+    elemDog.style.bottom = "-108%";
   }, 555);
 });
 // ......................slider....................................................................
@@ -28,12 +28,12 @@ var overlay = document.querySelector("#overlay");
 var btn = document.querySelector(".btn-for-fun");
 setTimeout(() => {
   overlay.style.display = "initial";
-}, 4555);
+}, 2);
 close1.addEventListener("click", function () {
   overlay.style.display = "none";
 });
 btn.addEventListener("click", function () {
-  overlay.style.display = "none";
+  // overlay.style.display = "none";
 });
 //......................................another sucribe box.........................................
 setTimeout(() => {
@@ -42,5 +42,5 @@ setTimeout(() => {
 var over = document.querySelector("#overlayDiv1");
 var close2 =document.querySelector(".cross2");//........................................................................................................
 close2.addEventListener("click",function(){
-    over.over.style.right= "-4%";
+    over.style.right= "-4%";
 })
